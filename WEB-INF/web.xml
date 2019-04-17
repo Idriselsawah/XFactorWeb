@@ -1,0 +1,201 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<web-app xmlns="http://java.sun.com/xml/ns/j2ee"
+     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+     xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd"
+     version="2.5">
+     
+    <servlet>
+       <servlet-name>listaGiudice</servlet-name>
+       <servlet-class>listaGiudice</servlet-class>
+    </servlet>
+    
+    <servlet-mapping>
+       <servlet-name>listaGiudice</servlet-name>
+       <url-pattern>/listaGiudice</url-pattern>
+    </servlet-mapping>
+    
+    <servlet>
+       <servlet-name>luogoNascitaGiudice</servlet-name>
+       <servlet-class>luogoNascitaGiudice</servlet-class>
+    </servlet>
+    
+    <servlet-mapping>
+       <servlet-name>luogoNascitaGiudice</servlet-name>
+       <url-pattern>/luogoNascitaGiudice</url-pattern>
+    </servlet-mapping>
+    
+     <servlet>
+       <servlet-name>cancellaGiudice</servlet-name>
+       <servlet-class>cancellaGiudice</servlet-class>
+    </servlet>
+    
+    <servlet-mapping>
+       <servlet-name>cancellaGiudice</servlet-name>
+       <url-pattern>/cancellaGiudice</url-pattern>
+    </servlet-mapping>
+    
+    <servlet>
+       <servlet-name>inserisciGiudice</servlet-name>
+       <servlet-class>inserisciGiudice</servlet-class>
+    </servlet>
+    
+    <servlet-mapping>
+       <servlet-name>inserisciGiudice</servlet-name>
+       <url-pattern>/inserisciGiudice</url-pattern>
+    </servlet-mapping>
+    
+    <servlet>
+       <servlet-name>listaGiudiceAnni</servlet-name>
+       <servlet-class>listaGiudiceAnni</servlet-class>
+    </servlet>
+    
+    <servlet-mapping>
+       <servlet-name>listaGiudiceAnni</servlet-name>
+       <url-pattern>/listaGiudiceAnni</url-pattern>
+    </servlet-mapping>
+    
+    <servlet>
+       <servlet-name>cambiaLuogoGiudice</servlet-name>
+       <servlet-class>cambiaLuogoGiudice</servlet-class>
+    </servlet>
+    
+    <servlet-mapping>
+       <servlet-name>cambiaLuogoGiudice</servlet-name>
+       <url-pattern>/cambiaLuogoGiudice</url-pattern>
+    </servlet-mapping>
+    
+    
+    
+    
+    
+    
+    
+    
+    <servlet>
+       <servlet-name>listaCantante</servlet-name>
+       <servlet-class>listaCantante</servlet-class>
+    </servlet>
+    
+    <servlet-mapping>
+       <servlet-name>listaCantante</servlet-name>
+       <url-pattern>/listaCantante</url-pattern>
+    </servlet-mapping>
+    
+    <servlet>
+       <servlet-name>luogoNascitaCantante</servlet-name>
+       <servlet-class>luogoNascitaCantante</servlet-class>
+    </servlet>
+    
+    <servlet-mapping>
+       <servlet-name>luogoNascitaCantante</servlet-name>
+       <url-pattern>/luogoNascitaCantante</url-pattern>
+    </servlet-mapping>
+    
+     <servlet>
+       <servlet-name>cancellaCantante</servlet-name>
+       <servlet-class>cancellaCantante</servlet-class>
+    </servlet>
+    
+    <servlet-mapping>
+       <servlet-name>cancellaCantante</servlet-name>
+       <url-pattern>/cancellaCantante</url-pattern>
+    </servlet-mapping>
+    
+    <servlet>
+       <servlet-name>inserisciCantante</servlet-name>
+       <servlet-class>inserisciCantante</servlet-class>
+    </servlet>
+    
+    <servlet-mapping>
+       <servlet-name>inserisciCantante</servlet-name>
+       <url-pattern>/inserisciCantante</url-pattern>
+    </servlet-mapping>
+    
+    <servlet>
+       <servlet-name>listaCantanteAnni</servlet-name>
+       <servlet-class>listaCantanteAnni</servlet-class>
+    </servlet>
+    
+    <servlet-mapping>
+       <servlet-name>listaCantanteAnni</servlet-name>
+       <url-pattern>/listaCantanteAnni</url-pattern>
+    </servlet-mapping>
+    
+    <servlet>
+       <servlet-name>cambiaLuogoCantante</servlet-name>
+       <servlet-class>cambiaLuogoCantante</servlet-class>
+    </servlet>
+    
+    <servlet-mapping>
+       <servlet-name>cambiaLuogoCantante</servlet-name>
+       <url-pattern>/cambiaLuogoCantante</url-pattern>
+    </servlet-mapping>
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    <servlet>
+       <servlet-name>listaPresentatore</servlet-name>
+       <servlet-class>listaPresentatore</servlet-class>
+    </servlet>
+    
+    <servlet-mapping>
+       <servlet-name>listaPresentatore</servlet-name>
+       <url-pattern>/listaPresentatore</url-pattern>
+    </servlet-mapping>
+    
+    <servlet>
+       <servlet-name>luogoNascitaPresentatore</servlet-name>
+       <servlet-class>luogoNascitaPresentatore</servlet-class>
+    </servlet>
+    
+    <servlet-mapping>
+       <servlet-name>luogoNascitaPresentatore</servlet-name>
+       <url-pattern>/luogoNascitaPresentatore</url-pattern>
+    </servlet-mapping>
+    
+     <servlet>
+       <servlet-name>cancellaPresentatore</servlet-name>
+       <servlet-class>cancellaPresentatore</servlet-class>
+    </servlet>
+    
+    <servlet-mapping>
+       <servlet-name>cancellaPresentatore</servlet-name>
+       <url-pattern>/cancellaPresentatore</url-pattern>
+    </servlet-mapping>
+    
+    <servlet>
+       <servlet-name>inserisciPresentatore</servlet-name>
+       <servlet-class>inserisciPresentatore</servlet-class>
+    </servlet>
+    
+    <servlet-mapping>
+       <servlet-name>inserisciPresentatore</servlet-name>
+       <url-pattern>/inserisciPresentatore</url-pattern>
+    </servlet-mapping>
+    
+    <servlet>
+       <servlet-name>listaPresentatoreAnni</servlet-name>
+       <servlet-class>listaPresentatoreAnni</servlet-class>
+    </servlet>
+    
+    <servlet-mapping>
+       <servlet-name>listaPresentatoreAnni</servlet-name>
+       <url-pattern>/listaPresentatoreAnni</url-pattern>
+    </servlet-mapping>
+    
+    <servlet>
+       <servlet-name>cambiaLuogoPresentatore</servlet-name>
+       <servlet-class>cambiaLuogoPresentatore</servlet-class>
+    </servlet>
+    
+    <servlet-mapping>
+       <servlet-name>cambiaLuogoPresentatore</servlet-name>
+       <url-pattern>/cambiaLuogoPresentatore</url-pattern>
+    </servlet-mapping>
+</web-app>
